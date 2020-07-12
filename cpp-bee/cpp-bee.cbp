@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cpp-bee" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cpp-bee" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cpp-bee" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Attack.h" />
+		<Unit filename="include/ControlGroup.h" />
+		<Unit filename="include/Fly.h" />
+		<Unit filename="include/Guard.h" />
+		<Unit filename="include/Pollination.h" />
+		<Unit filename="include/Queen.h" />
+		<Unit filename="include/Worker.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Attack.cpp" />
+		<Unit filename="src/ControlGroup.cpp" />
+		<Unit filename="src/Fly.cpp" />
+		<Unit filename="src/Guard.cpp" />
+		<Unit filename="src/Pollination.cpp" />
+		<Unit filename="src/Queen.cpp" />
+		<Unit filename="src/Worker.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

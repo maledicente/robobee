@@ -1,0 +1,7 @@
+- Grupo de abelhas para polinizacao
+- Uma rainha, controlando o fluxo das operarias.
+- Operarias fazendo a polinizacao, controle biologico de pragas e afins
+- Guardas
+
+
+ 
